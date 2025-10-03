@@ -24,13 +24,9 @@
 
 2. Подготовьте KUMA Core:
 
-Скачайте репозиторий
+Скачайте репозиторий и установите зависимости
 ```
-git clone url
-```
-Установите зависимости
-```
-pip3 install -r requirements.txt
+git clone https://github.com/KUMA-Community/kuma-assets-archiver.git && cd kuma-assets-archiver && pip install -r requirements.txt
 ```
 
 3. Запустите скрипт
@@ -57,5 +53,6 @@ options:
 ```
 
 4. Автоматизация  
+
 
 Вы можете автоматизировать выполнение этого скрипта через cron или systemd timer
