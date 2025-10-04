@@ -5,16 +5,14 @@
 # Kuma Assets Archiver
 
 Скрипт для архивирования **assets** (активов) в **Kaspersky Unified Monitoring and Analysis Platform (KUMA)**.  
-Позволяет архивировать активы, игнорируя ограничение KUMA: (Активы, добавленные вручную в веб-интерфейсе или с помощью API, не архивируются.)[https://support.kaspersky.com/help/KUMA/4.0/ru-RU/263817.htm]
+Позволяет архивировать активы, игнорируя ограничение KUMA: [Активы, добавленные вручную в веб-интерфейсе или с помощью API, не архивируются.](https://support.kaspersky.com/help/KUMA/4.0/ru-RU/263817.htm)
 
----
 
 ## Требования
 
 - KUMA 4.0 без HA ядра
 - python 3.7+
 
----
 
 ## Использование
 
@@ -56,3 +54,4 @@ options:
 
 
 Вы можете автоматизировать выполнение этого скрипта через cron или systemd timer
+
